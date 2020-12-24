@@ -1,0 +1,17 @@
+s= input("Enter any String : ")
+i =0
+e = []
+o = []
+
+while i<len(s):
+    if i%2 == 0:
+        e.append(s[i])
+    else :
+        o.append(s[i])
+    i += 1
+print("Characters at Even Places: ")
+for x in e :
+    print(x)
+print("\n\nCharacters at Odd Places: ")
+for x in o:
+    print(x)

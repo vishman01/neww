@@ -1,0 +1,4 @@
+import json
+import JSON_Serial_dumps as jsd
+with open('Emp.json','w') as f:
+    json.dump(jsd.Employee,f)

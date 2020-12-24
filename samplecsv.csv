@@ -1,0 +1,26 @@
+slno,category,sub_cat,price
+1,steel,mild steel flat product,122
+2,Steel,mild steel hot rolled,155
+3,Steel,mild steel cold rolled,130
+4,Steel,mild steel bar,66
+5,Steel,mild steel bar bubbled,50
+6,Steel,plates,56
+7,Power Tools,drilling machine,970
+8,Power Tools,grass cutting tools,1120
+9,Power Tools,grinder,1360
+10,Power Tools,blower,564
+11,Power Tools,cordless grinder,755
+12,Cutting Tools,saw,324
+13,Cutting Tools,circular saw,380
+14,Cutting Tools,threading tool,145
+15,Cutting Tools,hexa blade,10
+16,Oil Lubricants,engine oil,530
+17,Oil Lubricants,greasing oil,320
+18,Oil Lubricants,car oil,730
+19,Office Supplies,paper a4,180
+20,Office Supplies,paper a3,300
+21,Office Supplies,pen,12
+22,Office Supplies,staplers,50
+23,Office Supplies,paper clips,25
+24,Industrail Hardware,nuts and bolts,7
+25,Industrail Hardware,,

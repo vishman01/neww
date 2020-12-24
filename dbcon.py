@@ -1,0 +1,17 @@
+import pymysql
+con = pymysql.connect(user='root', password='mysql', host='localhost')
+cursor1 = con.cursor()
+cursor2 = con.cursor()
+cursor1.execute("use learning;")
+# cursor1.execute("CREATE TABLE pet (name VARCHAR(20), owner VARCHAR(20),species VARCHAR(20), sex CHAR(1), birth DATE, death DATE);")
+cursor1.execute('Select * from pet')
+# cursor1.execute('desc pet')
+cursor1.fetchall()
+
+cursor2.execute('Insert into pet values("Rocky","Ram Singh","Graede","M",10/02/2017,null)')
+x = cursor2.execute('Select * from pet')
+cursor2.fetchall()
+con.commit()
+print(x)
+print(type(x))
+con.commit()

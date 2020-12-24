@@ -1,0 +1,13 @@
+s = input("Enter any String : ")
+l1 = s.split()
+l2 = []
+#for word in l1:
+i =0
+while i<len(l1):
+    if i%2==0:
+        l2.append(l1[i])
+    else:
+        l2.append(l1[i][::-1])
+    i +=1
+output = ' '.join(l2)
+print(output)
